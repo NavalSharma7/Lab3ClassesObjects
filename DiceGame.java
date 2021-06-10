@@ -2,7 +2,11 @@
     Naval Sharma
     A00241484
 
-		This program has certain array tools like -
+		This main class is used to create die of your choice and then call the roll
+		function on it to get random values
+
+		The bonus part is included which creates  5 six sided dies and roll them
+		until all  one a kind values appear on all the dices and print the number of attempts it took to achieve that
 
 */
 
@@ -61,7 +65,7 @@ public class DiceGame
   }
 
 	private static int getOneOfKind(){
-		//	creating  5 snew ix-sided dices. Rolling  all Dies in a loop until we get 5 of a kind.
+		//	creating  5 snew six-sided dices. Rolling  all Dies in a loop until we get 5 of a kind.
 		//	keeping a counter  and displaying the number of rolls.
 		Die[] dices = new Die[5];
 		for(int i=0; i<5 ;++i){
